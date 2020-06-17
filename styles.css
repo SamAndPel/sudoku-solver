@@ -261,7 +261,7 @@ button {
 }
 
 /* If we're on a BIG screen */
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 878px) {
     html, body {
         margin: 8px;
     }
