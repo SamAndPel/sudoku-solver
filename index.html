@@ -4,8 +4,9 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script type="text/javascript" src="tile.js"></script>
-        <script type="text/javascript" src="sudokuGrid.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="tile.js"></script>
+        <script src="sudokuGrid.js"></script>
         <title>JS Sudoku Solver</title>
     </head>
 
@@ -37,7 +38,7 @@
                         <div id="expmodalbody">
                             <div class="itemcol">
                                 <p>Image:</p>
-                                <img id="imgexport">
+                                <img src="" id="imgexport" alt="Image of Sudoku puzzle">
                             </div>
                             <div class="itemcol">
                                 <p>JSON:</p>
@@ -60,7 +61,7 @@
                 <p class="centerme">Some importable Sudokus <a href="https://www.kaggle.com/bryanpark/sudoku" target="_blank">on Kaggle</a></p>
                 <div class="itemrow centerme">
                     <p>Status:&nbsp;</p>
-                    <p id="status" id="status"></p>
+                    <p id="status"></p>
                 </div>
                 <div id="buttons">
                     <div class="itemrow">
