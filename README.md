@@ -9,5 +9,8 @@ Tested in:
 Check out the live demo at https://samandpel.github.io/sudoku-solver/
 
 ## Usage
-1. Clone/download
-2. Open index.html in a web browser
+1. Clone or download
+   * `git clone https://github.com/SamAndPel/sudoku-solver.git`
+   * `git clone git@github.com:SamAndPel/sudoku-solver.git`
+   * Click https://github.com/SamAndPel/sudoku-solver/archive/master.zip
+1. Open `index.html` in a web browser
